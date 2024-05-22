@@ -1,0 +1,19 @@
+#canvas {
+    background-color: black;
+    position:  absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition-duration: 4s;
+    transition-timing-function: ease-in-out;
+    box-shadow:0 0 30px 10px red;
+    margin-top: 35px;
+
+}
+#canvas:hover{
+    height: 650px;
+    width: 850px;
+}
+h1{
+    font-family: sans-serif;
+}
